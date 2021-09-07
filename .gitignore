@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+.cv_printing_functions.r
+.render_cv.r

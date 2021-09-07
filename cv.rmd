@@ -13,7 +13,7 @@ output:
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
-  results='asis', 
+  results = 'asis', 
   echo = FALSE
 )
 
@@ -119,32 +119,25 @@ CV %<>% print_section('research_positions')
 ```
 
 <!-- These breaks just force a new page so section doesnt get cut off -->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-Industry Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
 
-::: aside
-```{r}
-CV %<>% print_text_block('industy_experience_aside')
-```
-:::
+<!-- Industry Experience {data-icon=suitcase} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-```{r}
-CV %<>% print_section('industry_positions')
-```
+<!-- ::: aside -->
+<!-- ```{r, include=FALSE, error=FALSE} -->
+<!-- # CV %<>% print_text_block('industy_experience_aside') -->
+<!-- ``` -->
+<!-- ::: -->
+
+<!-- ```{r, include=FALSE, error=FALSE} -->
+<!-- # CV %<>% print_section('industry_positions') -->
+<!-- ``` -->
 
 <!-- These breaks just force a new page so section doesnt get cut off -->
-<br>
-<br>
-<br>
+<!-- <br> -->
+<!-- <br> -->
+<!-- <br> -->
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
