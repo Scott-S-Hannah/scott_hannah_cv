@@ -21,8 +21,8 @@ pagedown::chrome_print(input = tmp_html_cv_loc,
                        output = "cv.pdf")
 
 # identify the folders
-current.folder <- "/Users/scotthannah/OneDrive - Ulster University/Ulster University/R_Projects/scott_hannah_cv"
-new.folder <- "/Users/scotthannah/OneDrive - Ulster University/Ulster University/R_Projects/personal-website/static/files"
+current.folder <- "/Users/scotthannah/Documents/R_Projects/scott_hannah_cv"
+new.folder <- "/Users/scotthannah/Documents/R_Projects/personal-website/static/files"
 
 # find the files that you want
 list.of.files <- list.files(current.folder, "cv.html")
