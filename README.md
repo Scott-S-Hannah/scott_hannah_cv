@@ -1,3 +1,2 @@
 # scott_hannah_cv
-Academic CV of Scott Hannah
-A line I wrote on my local computer
+Academic CV of Dr. Scott Hannah
